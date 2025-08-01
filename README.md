@@ -22,7 +22,7 @@ This website fetches quotes from an external API with HTTPS. Some browsers (like
    - In Chrome, click on the address bar and type or paste:
      
      ```
-     https://api.quotable.io
+     https://api.quotable.io/random?tags=motivational
      ```
    - Press Enter. You’ll likely see a warning screen.
    - Click **“Advanced”**, then **“Proceed to api.quotable.io (unsafe)”**.
