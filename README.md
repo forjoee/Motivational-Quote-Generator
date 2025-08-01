@@ -20,6 +20,7 @@ This website fetches quotes from an external API with HTTPS. Some browsers (like
 1. **Let your browser trust the API:**
    - When the quote box doesn’t load new quotes, it's likely due to a blocked connection.
    - In Chrome, click on the address bar and type or paste:
+     
      ```
      https://api.quotable.io
      ```
