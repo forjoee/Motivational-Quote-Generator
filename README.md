@@ -26,4 +26,4 @@ Just click the box, and a new motivational quote will appear!
 ## 🌎 Try It Out!
 
 Check it out live here:  
-🔗 **[Website]**
+🔗 **[Website](https://forjoee.github.io/Motivational-Quote-Generator/)**
