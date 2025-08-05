@@ -28,12 +28,18 @@ app.get('/api', async (req, res) => {
       ...url.parse(req.url, true).query,
     });
 
-    const apiResponse = await needle('get', `${API_URL}?${params}`);
+    const apiUrlWithParams = `${API_URL}?${params}`;
+    console.log('Fetching quote from:', apiUrlWithParams);
+
+    const apiResponse = await needle('get', apiUrlWithParams);
     const data = apiResponse.body;
+
+    console.log('Quote received:', data);
+
     res.status(200).json(data);
   }
   catch (ex) {
-    console.error(ex);
+    console.error('Error fetching quote:', ex);
     res.status(500).json({
       error: 'Something went wrong',
       details: ex.message,
