@@ -5,7 +5,7 @@ const container = document.getElementById('container');
 async function getQuote() {
     try {
         // Include the 'tags=motivational' query param
-        const response = await fetch('http://localhost:4000/api?tags=motivational');
+        const response = await fetch('https://quote-generator-server-4x74.onrender.com');
 
         if (!response.ok) {
             quoteText.textContent = 'Could Not Get A Quote! Maybe Try Later...';
