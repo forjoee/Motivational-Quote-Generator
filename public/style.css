@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+
+@font-face {
+    font-family: 'InterBold';
+    src: url('./font/Inter_28pt-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'InterRegular';
+    src: url('./font/Inter_28pt-Regular.ttf') format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'InterBold', 'InterRegular';
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #0a1018, #162841, #1c3963);
+}
+
+#container {
+    color: #e2e2e2;
+    background: linear-gradient(90deg, #0059ff, #0084ff);
+    margin: 25px;
+    padding: 50px;
+    max-width: 1000px;
+    max-height: 90vh;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#container:hover {
+    border: 7px solid #e2e2e2;
+    background: linear-gradient(90deg, #0084ff, #0059ff);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+#quoteAuthor {
+    color: #e2e2e2da;
+    margin-top: 10px;
+}
