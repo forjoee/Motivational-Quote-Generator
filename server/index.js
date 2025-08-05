@@ -1,4 +1,4 @@
-/* process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'; // bypass browser warning */
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'; // bypass browser warning
 
 const express = require('express');
 const cors = require('cors');
