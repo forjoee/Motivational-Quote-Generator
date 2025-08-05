@@ -12,10 +12,9 @@ const PORT = process.env.PORT || 4000;
 
 app.use(cors());
 
-// Serve frontend static files from public folder
+
 app.use(express.static(path.join(__dirname, '../public')));
 
-// Serve index.html on root route
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
