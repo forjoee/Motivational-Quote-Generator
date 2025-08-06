@@ -11,7 +11,7 @@ A simple and clean **Motivational Quote Generator** that gives you a fresh quote
 * 🔄 **Works 24/7** – Backend is hosted online so it’s always available
 * 📱 **Responsive Design** – Works great on desktop and mobile
 
-📷 Preview
+## 📷 Preview
 
 ![Preview Image](preview11.png)
 
@@ -36,3 +36,4 @@ A simple and clean **Motivational Quote Generator** that gives you a fresh quote
 ## 🙌 Credits
 
 Quotes provided by [Quotable](https://github.com/lukePeavey/quotable)
+
